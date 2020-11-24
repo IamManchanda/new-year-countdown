@@ -4,14 +4,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template | VanillaJS</title>
+  <title>NewYear Countdown | VanillaJS</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap"/>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+  <div id="year" class="year"></div>
+
+  <h1>New Year Countdown</h1>
+
+  <div id="countdown" class="countdown">
+    <div class="time">
+      <h2 id="days">00</h2>
+      <small>days</small>
+    </div>
+    <div class="time">
+      <h2 id="hours">00</h2>
+      <small>hours</small>
+    </div>
+    <div class="time">
+      <h2 id="minutes">00</h2>
+      <small>minutes</small>
+    </div>
+    <div class="time">
+      <h2 id="seconds">00</h2>
+      <small>seconds</small>
+    </div>
+  </div>
+
+  <img
+    src="./assets/images/spinner.gif"
+    alt="Loading..."
+    id="loading"
+    class="loading"
+  />
   <script src="js/script.js"></script>
 </body>
 
